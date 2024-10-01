@@ -1,0 +1,58 @@
+
+/* Mobile first approach*/
+/* 
+body {
+    background-color: red;
+}
+
+
+@media (min-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+    
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        background-color: green;
+    }
+    
+}  */
+ 
+
+
+
+
+/* Desktop-first approach*/
+ body {
+    background-color: green;
+}
+
+
+@media (max-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+    
+} 
+
+
+
+
+
+/* @media (max-width: 320px) { /* Styles for small mobile devices */ 
+/* @media (max-width: 480px) { /* Styles for large mobiles */ 
+/* @media (max-width: 768px) { /* Styles for tablets and small desktops */ 
+/* @media (max-width: 1024px) { /* Styles for medium desktops */ 
+/* @media (max-width: 1200px) { /* Styles for large desktops */  
+/* Content-driven breakpoints är bäst - dvs en brytpunkt där designen krashar! */
+

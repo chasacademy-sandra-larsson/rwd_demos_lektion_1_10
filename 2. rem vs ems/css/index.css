@@ -1,0 +1,16 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    background-color: aqua ;
+    /* padding: 2rem; */
+    padding: 2em;
+}
+
+p {
+    background-color: bisque;
+    /* padding: 2rem; */
+    padding: 2em;
+
+}

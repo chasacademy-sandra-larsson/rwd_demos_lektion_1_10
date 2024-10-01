@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 20px;
+    align-items: center;
+  }
+  
+ .nav {
+    display: flex;
+  }
+  
+  
+  .nav__list {
+    display: none;
+  }
+
+  .nav__hamburger {
+    all: unset;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+
+    .nav__list {
+      display: flex;
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      gap: 5px;
+    }
+    
+    .nav__link  {
+      color: #000;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .nav__hamburger {
+      display: none;
+    }
+  }
+  
